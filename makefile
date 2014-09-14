@@ -47,4 +47,4 @@ go/src/make.bash: go/README
 go/src/all.bash: go/README
 
 go/README:
-	hg clone 'https://code.google.com/p/go'
+	hg clone -u release 'https://code.google.com/p/go'
